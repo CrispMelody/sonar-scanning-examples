@@ -15,6 +15,9 @@ public class HelloWorldTest {
   @Test
   public void notCovered1() {
     new HelloWorld().notCovered1();
+  }@Test
+  public void notCovered2() {
+    new HelloWorld().notCovered2();
   }
 
 }
