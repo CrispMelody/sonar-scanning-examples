@@ -8,12 +8,5 @@ public class HelloWorldTest {
   public void sayHello() {
     new HelloWorld().sayHello();
   }
-  @Test
-  public void notCoveraged() {
-    new HelloWorld().notCovered();
-  }
-  @Test
-  public void notCoveraged1() {
-    new HelloWorld().notCovered1();
-  }
+
 }
