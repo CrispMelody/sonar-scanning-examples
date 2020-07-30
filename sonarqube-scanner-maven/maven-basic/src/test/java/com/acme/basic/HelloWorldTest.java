@@ -9,7 +9,11 @@ public class HelloWorldTest {
     new HelloWorld().sayHello();
   }
   @Test
-  public void notCovered() {
+  public void notCoveraged() {
     new HelloWorld().notCovered();
+  }
+  @Test
+  public void notCoveraged1() {
+    new HelloWorld().notCovered1();
   }
 }
