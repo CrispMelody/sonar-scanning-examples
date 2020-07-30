@@ -8,4 +8,8 @@ public class HelloWorldTest {
   public void sayHello() {
     new HelloWorld().sayHello();
   }
+  @Test
+  public void notCovered() {
+    new HelloWorld().notCovered();
+  }
 }
